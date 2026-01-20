@@ -1,0 +1,442 @@
+2026-01-20 15:50:07 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'warehouseController' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fasterxml.jackson.databind.ObjectMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-20 15:50:07 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in at.ac.tgm.gorunovic.central.service.WarehouseDataService required a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' in your configuration.
+
+2026-01-20 15:52:04 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'warehouseController' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fasterxml.jackson.databind.ObjectMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-20 15:52:04 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in at.ac.tgm.gorunovic.central.service.WarehouseDataService required a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' in your configuration.
+
+2026-01-20 15:57:25 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'warehouseController' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fasterxml.jackson.databind.ObjectMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-20 15:57:25 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in at.ac.tgm.gorunovic.central.service.WarehouseDataService required a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' in your configuration.
+
+2026-01-20 15:58:45 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'warehouseController' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fasterxml.jackson.databind.ObjectMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-01-20 15:58:45 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in at.ac.tgm.gorunovic.central.service.WarehouseDataService required a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fasterxml.jackson.databind.ObjectMapper' in your configuration.
+
+2026-01-20 15:59:32 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'warehouseController' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService' defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'warehouseDataService': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2026-01-20 15:59:32 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   warehouseController defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/controller/WarehouseController.class]
+┌─────┐
+|  warehouseDataService defined in file [/home/bbyGent/stuff/school/MOM/MOM/central/build/classes/java/main/at/ac/tgm/gorunovic/central/service/WarehouseDataService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:19 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:19 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:28 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:28 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:38 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:38 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:42 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:42 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:53 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:53 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:58 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:58 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:03:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:03:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:12 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:12 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:20 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:20 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:42 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:42 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:55 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:55 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:58 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:58 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:04:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:04:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:04 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:04 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:20 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:20 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:34 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:34 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:36 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:38 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:38 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:39 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:40 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:41 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:43 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:44 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:45 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:45 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:46 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:47 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:48 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:49 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:50 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:51 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:52 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:53 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:53 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:54 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:55 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:55 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:56 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:57 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:05:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:05:59 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:00 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:01 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:02 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:03 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:04 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:04 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:05 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:06 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:07 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:08 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:09 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:10 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:11 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:12 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:12 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:13 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:14 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:14 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:15 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:16 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:17 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:18 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:19 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:19 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:21 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:22 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:23 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:24 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-01-20 16:06:25 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:26 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:27 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:29 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:30 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:31 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:32 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:33 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:35 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] Bootstrap broker localhost:9092 (id: -1 rack: null isFenced: false) disconnected
+2026-01-20 16:06:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] The metadata response from the cluster reported a recoverable issue with correlation id 34 : {quickstart-events=LEADER_NOT_AVAILABLE}
+2026-01-20 16:06:37 - [Consumer clientId=consumer-warehouse-central-1, groupId=warehouse-central] The metadata response from the cluster reported a recoverable issue with correlation id 38 : {quickstart-events=LEADER_NOT_AVAILABLE}
+2026-01-20 16:10:29 - [Producer clientId=central-producer-1] The metadata response from the cluster reported a recoverable issue with correlation id 2 : {warehouse-responses-W001=LEADER_NOT_AVAILABLE}
+2026-01-20 16:22:20 - [Producer clientId=central-producer-1] The metadata response from the cluster reported a recoverable issue with correlation id 2 : {warehouse-responses-001=LEADER_NOT_AVAILABLE}
